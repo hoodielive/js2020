@@ -12,4 +12,6 @@ const filteredItems = items.filter((item) => {
 	return item.price <= 100
 })
 
+console.log(items) // The initial object is not changed.
+
 console.log(filteredItems)
